@@ -36,3 +36,21 @@ ul,ol{
   background-color: #EBEBEB;
   padding: 16px;
 }
+
+.recept__ingredients{
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recept__instructions{
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recept__instructions .recept__ingredients, li{
+  margin-bottom: 16px;
+}
