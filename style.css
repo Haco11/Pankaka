@@ -51,8 +51,11 @@ ul,ol{
   gap: 20px;
 }
 
-.recept__instructions .recept__ingredients, li{
-  margin-bottom: 16px;
+.recept__ingredients ul,
+.recept__instructions ol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .recept__serving{
